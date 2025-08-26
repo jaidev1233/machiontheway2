@@ -1,0 +1,64 @@
+.map-container {
+  background-color: rgba(15,23,42,255);
+  border: 1px solid #1e2a38;
+  border-radius: 12px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-family: Arial, sans-serif;
+}
+
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.map-header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.legend {
+  font-size: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.bus {
+  background-color: #00c853; /* green */
+}
+
+.stop {
+  background-color: #2979ff; /* blue */
+}
+
+.map-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a121b;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 6px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.map-footer strong {
+  color: #ffffff;
+}

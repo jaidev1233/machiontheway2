@@ -1,0 +1,104 @@
+#form {
+  width: 276px;
+  
+  padding: 22px;
+  background: #0f172a;              /* card navy */
+  border: 1px solid #23314d;        /* subtle border */
+  border-radius: 16px;
+  box-shadow:
+    0 0 0 1px rgba(148,163,184,0.05),
+    0 12px 28px rgba(2,6,23,0.55);
+}
+
+
+#form h2 {
+  margin: 0 0 18px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #e9efff;
+}
+#form h3 {
+  margin: 18px 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #c7d2fe;                   /* soft indigo like the screenshot */
+}
+
+/* Labels + fields */
+#form label {
+  display: block;
+  margin: 8px 0 6px;
+  font-size: 14px;
+  color: #aab7d6;                   /* muted text */
+}
+
+#form input,
+#form textarea {
+  width: 90%;
+  padding: 12px 14px;
+  border: 1px solid #24324f;        /* cool, dark border */
+  background: #1e293b;              /* input bg from the UI */
+  color: #e6edf7;
+  border-radius: 12px;
+  outline: none;
+  transition: box-shadow .2s, border-color .2s, background .2s;
+}
+#form input::placeholder,
+#form textarea::placeholder {
+  color: #8aa0c2;
+}
+#form input:focus,
+#form textarea:focus {
+  border-color: #345ca8;
+  box-shadow: 0 0 0 3px rgba(59,130,246,.18); /* soft blue focus ring */
+}
+#form textarea { resize: vertical; }
+
+/* Base button */
+#form .btn {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background .15s, border-color .15s, box-shadow .15s, transform .02s;
+}
+
+/* Make the first form's button the green "Update" button */
+#form form:first-of-type .btn {
+  background: linear-gradient(180deg, #146c43, #0e5131);
+  border-color: #22c55e;                       /* green edge */
+  box-shadow:
+    0 0 0 2px rgba(34,197,94,.25),             /* outer green glow */
+    inset 0 1px 0 rgba(255,255,255,.05);
+  color: #ffffff;
+}
+#form form:first-of-type .btn:hover {
+  background: linear-gradient(180deg, #1b7a4e, #12623a);
+}
+#form form:first-of-type .btn:active {
+  transform: translateY(1px);
+}
+
+/* Second form's button = dark "Send" button */
+#form form:last-of-type .btn {
+  background: #1e293b;
+  border-color: #2a3a58;
+  color: #e6edf7;
+}
+#form form:last-of-type .btn:hover {
+  background: #25334d;
+  border-color: #344666;
+}
+
+
+#form form + form.form-section {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(148,163,184,0.12);
+}
+#form h{
+    color:  #0f172a;
+    
+}

@@ -1,0 +1,60 @@
+#hea{
+    color: white;
+    display: flex;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+#name p{
+    font-size: 13px;
+    opacity: 0.5;
+    margin-top: 0;
+}
+#name{
+    padding-bottom: -40px;
+    padding-left: 10px;
+    position: absolute;
+}
+span{
+    opacity: 10;
+}
+
+hr{
+    opacity: 0.2;
+    height: -60px;
+}
+#left p{
+     font-size: 13px;
+    
+
+     border: solid 0.1px rgb(90, 77, 134);
+     margin-bottom: 30px;
+     padding-right: 3px;
+     padding-left: 3px;
+     padding-bottom: 3px;
+     border-radius: 16px;
+    
+    
+}
+#left{
+    display: flex;
+    padding-left: 1300px;
+    gap: 17px;
+   padding-top: 8px;
+   
+}
+@media (max-width: 758px) 
+{
+    #left{
+        transform: translateX(-1020px);
+        
+        
+    }
+    #left p{
+     width: 67px;
+    
+    
+}
+}

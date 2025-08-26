@@ -1,0 +1,26 @@
+#att{
+  width: 300px;
+  background: rgba(15,23,42,255);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 10px;
+  height: 170px;
+  font-family: Arial, sans-serif;
+  border:solid 0.2px rgb(62, 67, 85);
+ 
+}
+#profile-table h4{
+    font-weight: bold;
+    color: rgb(155, 220, 255);
+}
+
+#att td{
+    width: 150px;
+
+}
+#att p{
+    padding-bottom: 14px;
+
+
+
+}

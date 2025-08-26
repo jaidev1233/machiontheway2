@@ -1,0 +1,33 @@
+body{
+  background-color: rgba(11,18,32,255);
+}
+
+td{
+  padding-left: 10px;
+}
+
+#d{
+  padding-bottom: 30px;
+}
+#app{
+  
+}
+
+#sd {
+  display: flex;
+  flex-direction: column; 
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+  #sd {
+    flex-direction: row; 
+  }
+}
+
+
+
